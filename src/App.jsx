@@ -4,7 +4,7 @@ function App() {
 
   const[count, setCount] = useState(0)
 
-  const [list, setList] = useState(['cata', 'bobi'])
+  const [list, setList] = useState(['name1', 'name2'])
   const [name, setName] = useState('')
 
   function increaseCount() {
